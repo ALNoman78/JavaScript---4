@@ -11,6 +11,6 @@
 let userName =  ['Tom', 'Tim', 'Tin', 'Tik'];
 
 for (const newName of userName) {
-    let updateName = `newName ${newName}`
+    let updateName = newName
     console.log(updateName);
 }
