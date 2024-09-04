@@ -31,9 +31,10 @@ console.log(e);
 let text = "i live in bangladesh"
 // there i split the text of array
 let s = text.split(" ")
+console.log(s);
 //  ae 35 number line theke ami split kora text take reversed kore diche
 let rev_text = s.reverse()
-// console.log(rev_text);
-
+console.log(rev_text);
+// ekhne join operation ta somppuno hy
 let j = rev_text.join(" ")
 console.log(j);
